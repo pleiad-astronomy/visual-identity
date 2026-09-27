@@ -14,7 +14,7 @@ The logo is a spiral galaxy drawn as a single line, with stars around it. The fu
 | :-- | :-- |
 | The logo on a light background (white slides, documents, posters) | `pleiad logo preto (sem azul).png`, or `pleiad logo preto urania (sem azul).png` to include Urania |
 | The logo on a dark background | `pleiad logo branco urania (sem azul).png` |
-| The logo with its soft blue glow | any file without "(sem azul)" |
+| The logo with its soft blue glow | any PNG file without "(sem azul)"
 | A full image with a starry sky (covers, social media) | the `estrelado` JPGs |
 | A small logo (avatar, favicon, app icon) | a `sem nome` file: the name and Urania can't be read below about 64 pixels |
 
