@@ -44,6 +44,19 @@ The file names are in Portuguese. Each one combines three choices:
 
 All images are 3832 × 3832 pixels. The PNGs have transparent backgrounds, so the white versions look blank in a viewer with a white background: open them on a dark one.
 
+The Photoshop source file (`.psd`, about 30 MB) is too large for GitHub's web upload, so it lives as a download attached to a [release](https://github.com/pleiad-astronomy/visual-identity/releases) of this repository.
+
+## Icons
+
+For small sizes, `icons/` has two 512 × 512 icons made from the `sem nome (sem azul)` versions:
+
+| File | For | Changes from the original |
+| :-- | :-- | :-- |
+| `icons/pleiad-icon-light.png` | light backgrounds | cropped close around the spiral; the lone star below it left out; spiral twice as opaque, so it doesn't vanish at small sizes |
+| `icons/pleiad-icon-dark.png` | dark backgrounds | cropped the same way |
+
+They're used, for example, by the [NASA ADS plugin for Claude](https://github.com/prtc/nasa-ads-mcp). To remake them after changing a logo file, run `uv run --with pillow python icons/make_icons.py`; the script explains each step.
+
 ## Using the logo
 
 These files are the visual identity of the Pleiad group. If you'd like to use them outside Pleiad materials, please get in touch first. When you use the logo, please keep Ingrid's credit with it where there's room for one.
@@ -55,5 +68,7 @@ Este repositório guarda o logo do grupo [Pleiad Astronomy](https://pleiad-astro
 Os nomes dos arquivos combinam três escolhas: **preto** ou **branco** (cor do desenho, para fundos claros ou escuros); o logo completo com o nome, **urania** (com a Urânia também) ou **sem nome** (só a galáxia e as estrelas); e o fundo com brilho azul, **sem azul** (fundo transparente) ou **estrelado** (céu estrelado, em JPG).
 
 Para fundos claros, use as versões **preto**; para fundos escuros, as **branco**. Em tamanhos pequenos (avatares, ícones), use as versões **sem nome**: abaixo de uns 64 pixels o nome e a Urânia ficam ilegíveis.
+
+A pasta `icons/` tem dois ícones prontos (512 × 512), para fundos claros e escuros, feitos a partir das versões **sem nome (sem azul)**.
 
 Estes arquivos são a identidade visual do grupo Pleiad. Para usá-los fora dos materiais do grupo, entre em contato antes. Ao usar o logo, mantenha o crédito à Ingrid sempre que houver espaço.
